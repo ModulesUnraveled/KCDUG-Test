@@ -1,0 +1,14 @@
+uuid: a6d17ecb-0f71-4998-9817-23fe5d74e765
+name: 'KC DUG'
+mail: admin@exmple.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
