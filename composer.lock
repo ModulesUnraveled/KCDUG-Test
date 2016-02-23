@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5b9d8c09dd1853b007d607fc16cd9a6e",
-    "content-hash": "3d76fa30871a788ca1bd0034ed8a57a0",
+    "hash": "7bfc084725a919539b5fa23004a640da",
+    "content-hash": "5e384ca7502a8a074787e956923893d3",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1062,12 +1062,45 @@
             "homepage": "https://www.drupal.org/project/google_analytics"
         },
         {
+            "name": "drupal/jethro",
+            "version": "8.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/jethro.git",
+                "reference": "6a9ca8a934d7892e96205cfc9e22e301dfab6e4d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/jethro-8.x-1.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "drupal/core": "8.*"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-1.x": "8.1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "description": "Bootsrap Mobile Responsive theme",
+            "homepage": "https://www.drupal.org/project/jethro"
+        },
+        {
             "name": "drupal/pathauto",
-            "version": "dev-8.x-1.x",
+            "version": "8.1.0-alpha1",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/pathauto",
-                "reference": "f6d2b6ad34fb7b49f4a750fbdf80bf5fa7d49610"
+                "reference": "616e72abe5dee822444b67e3754b9f7652447540"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/pathauto-8.x-1.0-alpha1.zip",
+                "reference": null,
+                "shasum": null
             },
             "require": {
                 "drupal/core": "8.*",
@@ -1087,7 +1120,7 @@
             ],
             "description": "Provides a mechanism for modules to automatically generate aliases for the content they manage.",
             "homepage": "https://www.drupal.org/project/pathauto",
-            "time": "2016-02-19 21:08:45"
+            "time": "2016-01-21 21:50:23"
         },
         {
             "name": "drupal/token",
@@ -5250,7 +5283,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "drupal/pathauto": 20,
         "drupal/google_analytics": 20,
         "jcalderonzumba/gastonjs": 20,
         "jcalderonzumba/mink-phantomjs-driver": 20

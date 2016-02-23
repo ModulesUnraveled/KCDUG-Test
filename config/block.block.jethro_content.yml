@@ -1,0 +1,22 @@
+uuid: 5ccca9d5-2fbb-440d-9900-d8becf11d21e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - jethro
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: jethro_content
+theme: jethro
+region: content
+weight: -3
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }
